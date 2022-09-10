@@ -2,11 +2,11 @@
 Compiler for json files from OPAP api
 
 
-Excecuting the compiler(terminal): 
+Excecuting the compiler (terminal): 
 
-bison -d comp.y \n
-flex comp.l \n
-gcc -o run lex.yy.c comp.tab.c -lfl
-./run last_result.json
+1) bison -d comp.y 
+2) flex comp.l \n
+3) gcc -o run lex.yy.c comp.tab.c -lfl
+4) ./run last_result.json
 
 
